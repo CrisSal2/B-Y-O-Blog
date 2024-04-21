@@ -1,0 +1,55 @@
+
+/*************************  Defaults  *****************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav .Welcome-logo #logo-img #Form #form-inputs{
+    display: flex;
+}
+
+/*************************  Nav Styling  **************************************/
+
+#nav {
+
+    border-bottom: solid;
+    padding: 3rem;
+    margin: -10px;
+
+}
+
+/*************************  Welcome Logo Styling  *****************************/
+
+.Welcome-logo {
+
+    border: solid;
+    padding: 10% 5% 10% 10%;
+    margin-top: 0;
+}
+
+#logo-img {
+
+    justify-content: center;
+    margin: 0;
+    width: 35%;
+    border-radius: 500px;
+}
+
+/*************************  Front Page Form Styling  **************************/
+
+#form-inputs {
+
+    justify-content: center;
+    flex-flow: column;
+
+}
+
+#Form {
+    
+    border: solid;
+    margin-top: 1%;
+    padding: 0;
+    
+}
