@@ -6,7 +6,8 @@
     padding: 0;
 }
 
-#nav .Welcome-logo #logo-img #Form #form-inputs{
+
+#nav, .Welcome-logo, #Form, #form-inputs {
     display: flex;
 }
 
@@ -25,31 +26,38 @@
 .Welcome-logo {
 
     border: solid;
-    padding: 10% 5% 10% 10%;
-    margin-top: 0;
+    padding: 10% 5% 11% 10%;
+    
 }
 
 #logo-img {
 
     justify-content: center;
     margin: 0;
-    width: 35%;
+    width: 65%;
     border-radius: 500px;
+
 }
 
 /*************************  Front Page Form Styling  **************************/
 
 #form-inputs {
+    
+    border: solid;
+    padding: 15%;
 
-    justify-content: center;
-    flex-flow: column;
+}
 
+#user-inputs {
+    
+    align-self: center;
+    text-align: left;
+    font-size: 2rem;
 }
 
 #Form {
     
     border: solid;
     margin-top: 1%;
-    padding: 0;
     
 }
