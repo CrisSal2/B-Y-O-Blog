@@ -1,0 +1,92 @@
+/*************************  Defaults  *******************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+    --primaryColor: #ffffff;
+    --secondaryColor: #212121;
+
+}
+
+.darkTheme {
+
+    --primaryColor: #212121;
+    --secondaryColor: #ffffff;
+
+}
+
+#nav, .Welcome-logo, #Form, #form-inputs, #icon {
+    display: flex;
+}
+
+body {
+
+    height: 100vh;
+    width: 100%;
+    font-family: Sans-serif, Serif, Arial;
+    background-color: var(--primaryColor);
+
+}
+
+/*************************  Nav Styling  **************************************/
+
+#nav {
+
+    border-bottom: solid; color: var(--secondaryColor);
+    padding: 3rem;
+    margin: -10px;
+    justify-content: end;
+
+}
+
+#icon {
+
+    width: 30px;
+    cursor: pointer;
+}
+
+/*************************  Welcome Logo  *************************************/
+
+.Welcome-logo {
+
+    border: solid; color: var(--secondaryColor);
+    padding: 10% 5% 11% 10%;
+    
+}
+
+#logo-img {
+
+    justify-content: center;
+    margin: 0;
+    width: 65%;
+    border-radius: 500px;
+
+}
+
+/*************************  Front Page Form  **********************************/
+
+#form-inputs {
+    
+    border: solid; color: var(--secondaryColor);
+    padding: 15%;
+    margin-left: 0.25rem;
+
+}
+
+#user-inputs {
+    
+    align-self: center;
+    text-align: left;
+    font-size: 2rem;
+}
+
+#Form {
+    
+    border: solid; color: var(--secondaryColor);
+    margin-top: 1%;
+    
+}
