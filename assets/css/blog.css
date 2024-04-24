@@ -1,0 +1,59 @@
+/*************************  Defaults  *******************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+    --primaryColor: #ffffff;
+    --secondaryColor: #212121;
+
+}
+
+.darkTheme {
+
+    --primaryColor: #212121;
+    --secondaryColor: #ffffff;
+
+}
+
+#nav, #blogs-container, #icon {
+    display: flex;
+}
+
+body {
+
+    height: 100vh;
+    width: 100%;
+    font-family: Sans-serif, Serif, Arial;
+    background-color: var(--primaryColor);
+
+}
+
+/*************************  Nav Styling  **************************************/
+
+#nav {
+
+    border-bottom: solid; color: var(--secondaryColor);
+    padding: 3rem;
+    margin: -10px;
+    justify-content: end;
+
+}
+
+#icon {
+
+    width: 30px;
+    cursor: pointer;
+}
+
+/*************************  Blog Container **************************************/
+
+#blogs-container {
+
+    border: solid; color: var(--secondaryColor);
+    
+
+}
