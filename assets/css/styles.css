@@ -91,3 +91,17 @@ body {
     margin-top: 1%;
     
 }
+
+#Username, #Title, #Content, #Submit {
+
+    box-shadow: 2px 2px 2px; color: gray;
+
+}
+
+#Submit {
+
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+    
+}

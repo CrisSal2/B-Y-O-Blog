@@ -19,7 +19,7 @@
 
 }
 
-#nav, .Welcome-logo, #Form, #form-inputs, #icon {
+#nav, #blogs-container, #icon {
     display: flex;
 }
 
@@ -49,44 +49,11 @@ body {
     cursor: pointer;
 }
 
-/*************************  Welcome Logo  *************************************/
+/*************************  Blog Container **************************************/
 
-.Welcome-logo {
+#blogs-container {
 
     border: solid; color: var(--secondaryColor);
-    padding: 10% 5% 11% 10%;
     
-}
 
-#logo-img {
-
-    justify-content: center;
-    margin: 0;
-    width: 65%;
-    border-radius: 500px;
-
-}
-
-/*************************  Front Page Form  **********************************/
-
-#form-inputs {
-    
-    border: solid; color: var(--secondaryColor);
-    padding: 15%;
-    margin-left: 0.25rem;
-
-}
-
-#user-inputs {
-    
-    align-self: center;
-    text-align: left;
-    font-size: 2rem;
-}
-
-#Form {
-    
-    border: solid; color: var(--secondaryColor);
-    margin-top: 1%;
-    
 }
