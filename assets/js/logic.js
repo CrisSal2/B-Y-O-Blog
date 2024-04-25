@@ -9,6 +9,17 @@ const handleSubmit = function (e) {
     const username = document.querySelector('#Username');
     const title = document.querySelector('#Title');
     const content = document.querySelector('#Content');
+    const usernameV = document.getElementById("Username").value;
+    const titleV = document.getElementById("Title").value;
+    const contentV = document.getElementById("Content").value;
+
+if (usernameV === '' || titleV === '' || contentV === '') {
+  
+  window.alert('please complete the form')
+
+  return;
+
+};
 
     blogs.push({
         username: username.value,
@@ -22,25 +33,3 @@ const handleSubmit = function (e) {
 }
 
 submitBtn.addEventListener('click', handleSubmit);
-
-
-/* const message = function(e) {
-  e.preventDefault();
-
-  if (username.value === "") {
-
-    window.alert("asdfasdf");
-
-  } 
-  return message;
-}
- */
-
-
-
-
-/* if (username === "" && title === "" && content === "") {
-  
-  window.alert('please fill form')
-
-} */
