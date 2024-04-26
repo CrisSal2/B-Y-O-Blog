@@ -20,7 +20,7 @@
 
 }
 
-#nav, .Welcome-logo, #Form, #form-inputs, #icon {
+#nav, .Welcome-logo, #Form, #form-inputs, #icon, .footer {
     display: flex;
 }
 
@@ -114,4 +114,28 @@ body {
         max-width: 240px;
         max-height: 240px;
     }
+}
+
+/*******************************   Footer **************************************/
+
+
+.footer {
+
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.icon {
+    
+    margin-left: 1rem;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+}
+
+.icon:hover {
+    
+    transition-duration: 0.5s;
+    filter: drop-shadow(3px 3px 6px crimson);
+
 }
