@@ -20,8 +20,9 @@
 
 }
 
-#nav, #blogs-container, #icon {
+#nav, #blogs-container, #icon, .footer {
     display: flex;
+    flex-wrap: wrap;
 }
 
 body {
@@ -50,11 +51,71 @@ body {
     cursor: pointer;
 }
 
+#back-button {
+
+    width: 90px;
+    margin-right: 60px;
+    box-shadow: 2px 2px 2px;
+    cursor: pointer;
+
+}
+
 /*************************  Blog Container **************************************/
 
 #blogs-container {
 
     border: solid; color: var(--secondaryColor);
+    height: 80vh;
+
+}
+
+.post {
     
+    text-align: center;
+    border: solid; color: var(--secondaryColor);
+    width: 15rem;
+    height: 18rem;
+    margin-top: 0.75rem;
+    margin-left: 0.5rem;
+    box-shadow: 2px 2px 2px;
+
+}
+
+.post:hover {
+
+    transition-duration: 0.5s;
+    filter: drop-shadow(3px 3px 6px crimson);
+
+}
+
+h2, h3 {
+    
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    border-bottom: solid;
+    
+}
+
+/*******************************   Footer **************************************/
+
+
+.footer {
+
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.icon {
+    
+    margin-left: 1rem;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+}
+
+.icon:hover {
+    
+    transition-duration: 0.5s;
+    filter: drop-shadow(3px 3px 6px crimson);
 
 }

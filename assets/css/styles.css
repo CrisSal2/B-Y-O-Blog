@@ -74,6 +74,7 @@ body {
     
     border: solid; color: var(--secondaryColor);
     padding: 15%;
+    padding-right: 100%;
     width: 40rem;
     margin-left: 0.25rem;
 
@@ -106,4 +107,11 @@ body {
     height: 2rem;
     cursor: pointer;
     
+}
+
+@media (max-width:950px) {
+    #logo-img {
+        max-width: 240px;
+        max-height: 240px;
+    }
 }
