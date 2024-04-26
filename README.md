@@ -13,7 +13,7 @@
 
 - Included on the bottom of the webpage is a link to my portfolio! 
 
-Launched webstie link: https://crissal2.github.io/B-Y-O-Blog!/
+Launched webstie link: https://crissal2.github.io/B-Y-O-Blog/
 
 ![Webpage Preview](./assets/img/Front-Page.png)
 
