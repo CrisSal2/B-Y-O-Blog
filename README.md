@@ -1,26 +1,19 @@
 # B-Y-O-Blog
 
+## Description
 
-GIVEN a personal blog
-WHEN I load the app,
-THEN I am presented with the landing page containing a form with labels and inputs for username, blog title, and blog content.
-WHEN I submit the form,
-THEN blog post data is stored to localStorage.
-WHEN the form submits,
-THEN I am redirected to the posts page.
-WHEN I enter try to submit a form without a username, title, or content,
-THEN I am presented with a message that prompts me to complete the form.
-WHEN I view the posts page,
-THEN I am presented with a header, with a light mode/dark mode toggle, and a "Back" button.
-WHEN I click the light mode/dark mode toggle,
-THEN the page content's styles update to reflect the selection.
-WHEN I click the "Back" button,
-THEN I am redirected back to the landing page where I can input more blog entries.
-WHEN I view the main content,
-THEN I am presented with a list of blog posts that are pulled from localStorage.
-WHEN I view localStorage,
-THEN I am presented with a JSON array of blog post objects, each including the post author's username, title of the post, and post's content.
-WHEN I take a closer look at a single blog entry in the list,
-THEN I can see the title, the content, and the author of the post.
-WHEN I view the footer,
-THEN I am presented with a link to the developer's portfolio.
+- My first blog Website! Thsi website uses local storage to keep track of your blogs and orders them accordingly! you can also use a Dark-mode feature I added for lower light environments.
+
+
+## Usage
+
+- Enter your information and content of your blog before you submit or an alert will let you know that you missed an input.
+
+- when you submit your blog, you can use the back button on the top right corner to be taken to the front page to ad another blog!
+
+- Included on the bottom of the webpage is a link to my portfolio! 
+
+Launched webstie link: https://crissal2.github.io/B-Y-O-Blog!/
+
+![Webpage Preview](./assets/img/Front-Page.png)
+
