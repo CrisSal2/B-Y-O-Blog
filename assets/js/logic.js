@@ -29,7 +29,7 @@ if (usernameV === '' || titleV === '' || contentV === '') {
 
   localStorage.setItem('blogs', JSON.stringify(blogs));
 
-  window.location.href = '/blog.html';
+  window.location.href = 'blog.html';
 }
 
 submitBtn.addEventListener('click', handleSubmit);
